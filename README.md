@@ -22,7 +22,7 @@ You can clone & deploy it to Vercel with one click:
 # Developing Locally
 You can clone & create this repo with the following command
 ```bash
-npx create-next-app fastapi-nextjs --example "https://github.com/Kamil-cr/fastapi-nextjs"
+npx create-next-app fastapi-nextjs --example "https://github.com/kamilzafar/fastapi-nextjs"
 ```
 # Getting Started
 First, install the dependencies:
