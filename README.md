@@ -8,11 +8,11 @@ To get started, make sure you have Poetry installed on your system. You can find
 Once you have Poetry installed, navigate to the project directory and run the following command to create a virtual environment and install the dependencies:
 
 # How It Works
-The Python/FastAPI server is mapped into to Next.js app under /api/.
+The Python/FastAPI server is mapped into to Next.js app under `/api/`.
 
-This is implemented using next.config.js rewrites to map any request to /api/:path* to the FastAPI API, which is hosted in the /api folder.
+This is implemented using [next.config.js](https://github.com/Kamil-cr/fastapi-nextjs/blob/main/fastapi_nextjs/next.config.mjs) rewrites to map any request to `/api/:path*` to the FastAPI API, which is hosted in the `/api` folder.
 
-On localhost, the rewrite will be made to the 127.0.0.1:8000 port, which is where the FastAPI server is running.
+On localhost, the rewrite will be made to the `127.0.0.1:8000` port, which is where the FastAPI server is running.
 
 In production, the FastAPI server is hosted as Python serverless functions on Vercel.
 
