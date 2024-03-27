@@ -1,9 +1,9 @@
 {
-  "name": "frontend",
+  "name": "fastapi_nextjs",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "fastapi-dev": "poetry run uvicorn api.main:app --reload",
+    "fastapi-dev": "poetry run uvicorn api.main:app",
     "next-dev": "next dev",
     "dev": "concurrently \"npm run next-dev\" \"npm run fastapi-dev\"",
     "build": "next build",
