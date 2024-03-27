@@ -16,9 +16,6 @@ On localhost, the rewrite will be made to the `127.0.0.1:8000` port, which is wh
 
 In production, the FastAPI server is hosted as Python serverless functions on Vercel.
 
-# Demo
-https://fastapi-nextjs-starter.vercel.app/
-
 # Deploy Your Own
 You can clone & deploy it to Vercel with one click:
 
